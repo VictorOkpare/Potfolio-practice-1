@@ -1,0 +1,86 @@
+
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    border: solid;
+    background-color: #000;
+    justify-content: space-between ;
+    align-content: center;
+}
+ul{
+    display: flex;
+    gap: 80px;
+    color: white;
+    font-size: 30px;
+    color: #e4b315;
+    font-size: 20px;
+    font-family: oswald;
+    list-style-type: none;
+    margin-right: 20px;
+  
+   
+}
+
+.logoImage img{
+    height: 50px;
+     
+}
+.myName{
+    display:flex;
+    color: #e4b315;
+    font-size: 30px;
+    font-family: oswald;
+    margin: 0;
+    align-items: center;
+    position:absolute;
+    left: 72%;
+  
+   
+}
+.imageName{
+    display: flex;
+    align-items: center;
+    position: relative;
+    
+}
+
+.Home-section{
+    display: flex;
+    justify-content: center;
+    margin: 40px auto
+}
+
+
+.p1{
+    font-size: 60px;
+    color:#006B35    
+
+}
+.p2{
+    font-size:25px;
+    color:#fc6a03;
+}
+
+.myPic{
+    flex:1;
+    margin-right: 100px;
+    
+   
+}
+.myPic img{
+    width: 300px;
+    height: 300px;
+    /* border: solid; */
+    border-radius:150px;
+    background-color: #e4b315;
+    float:right ;
+    
+    
+
+}
+
+.text-ctn{
+    flex: 1;
+}
